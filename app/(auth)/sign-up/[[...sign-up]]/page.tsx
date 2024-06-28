@@ -4,7 +4,7 @@ import React from 'react'
 
 const SignUpPage = () => {
     return (
-        <>
+        <main className='w-full h-screen flex justify-center items-center'>
             <ClerkLoaded>
                 <div className='flex flex-col items-center justify-center h-screen'>
                     <SignUp />
@@ -13,7 +13,7 @@ const SignUpPage = () => {
             <ClerkLoading>
                 <Loader2 />
             </ClerkLoading>
-        </>
+        </main>
     )
 }
 
